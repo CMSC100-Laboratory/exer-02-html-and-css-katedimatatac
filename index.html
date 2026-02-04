@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!DOCTYPE html>     <!-- Karl Margueritte Dimatatac Exer 2 HTML & CSS -->
 
 <html>
   <head>
-    <title>My Web Page</title>                                      
+    <title>My Portfolio</title>                                      
     <link rel="stylesheet" type="text/css" href="exer2.css" />
 
   </head>
@@ -11,22 +11,15 @@
     <div>
 
     </div>
-    <nav>
-        <div class="nav_bar" >
-            <div class="flex-item" style="flex: 1">
-                <a href="/html/">Home</a>
-            </div>
-            <div class="flex-item" style="flex: 1">
-                <a href="/css/">About Me</a>
-            </div> 
-            <div class="flex-item" style="flex: 1">
-                <a href="/js/">Projects</a> 
-            </div>
-            <div class="flex-item" style="flex: 1">
-                <a href="/python/">Contacts</a>
-            </div>
+    <nav id ="navbar">
+        <div class="nav_bar">
+          <a class="nav-link" href="#navbar">Home</a>
+          <a class="nav-link" href="#navbar">About Me</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#skills">Skills & Bio</a>
         </div>
-        </nav>
+      </nav>
+      
         <h1></h1>
 
         <div class="flex-container">
@@ -37,8 +30,9 @@
                 <div class="flex-item", style="flex: 3">
                     <h1>    Hello!</h1>
                     <h2></h2>
-                    <h2>I'm Kate</h2>
-                    <p>This is a paragraph</p>
+                    <h2>I'm Kate!</h2>
+                    <p>Karl Margueritte Valenzuela-Dimatatac</p>
+                    <p><b>Welcome to my webpage!</b> </p>
                 </div>
             </div>
         </div>
@@ -55,10 +49,10 @@
                 </div>
                 </p>
             </div>
-            <div class="flex-container2" style="flex: 3;">
+            <div id="projects" class="flex-container2" style="flex: 3;">
                 <h2>Greenvale City Pollution Reduction Planner</h2>
                 <img src="greenvale.png" alt="Image of pollution reduction planner interface">
-                <p>This project models a city-wide pollution reduction problem using numerical and symbolic computation through R and RShiny. It simulates how a city can plan and optimize pollution control strategies by selecting and combining different mitigation projects. The system allows users to choose from various pollution reduction options, set reduction targets, and compute the most cost-effective solution. By applying optimization techniques, the program shows how mathematical models can support real-world environmental decision-making.
+                <p >This project models a city-wide pollution reduction problem using numerical and symbolic computation through R and RShiny. It simulates how a city can plan and optimize pollution control strategies by selecting and combining different mitigation projects. The system allows users to choose from various pollution reduction options, set reduction targets, and compute the most cost-effective solution. By applying optimization techniques, the program shows how mathematical models can support real-world environmental decision-making.
 
                 </p>
             </div>
@@ -70,9 +64,9 @@
                 
             </div> 
         </div>
-        <div class="flex-container">
+        <div id="skills"class="flex-container">
             <div class ="flex-container2" style="flex: 1;">
-                <h2>Skills :D</h2>
+                <h2>Skills</h2>
                 <h3>Programming & Markup Languages</h3>
                 <p>Python</p>
                 <p>C</p>
@@ -87,15 +81,33 @@
             </div>
             
             <div class ="flex-container2" style="flex: 1;">
-                <h2>Bio :D</h2>
-            <p>This is a paragraph</p>
+                <h2>Autobiography</h2>
+            <p>I'm a graduating Computer Science major from the University of the Philippines Los Baños, with a passion for Web Programming and Frontend Engineering. I love creating clean, responsive interfaces that are both functional and user-friendly.
+                During college, I combined core CS concepts with practical web technologies to turn ideas into engaging digital experiences. I'm always exploring modern frameworks, improving my coding, and taking on personal projects.
+                I enjoy collaborating, writing code, and learning from feedback, and I'm excited to join a team where I can grow as a frontend engineer and build products that make a difference.</p>
             </div>
         </div>
         <div class="flex-container">
-            <div class="flex-container2" style="flex: 3;">
-                <h2>Other details</h2>
-                <p>This is a paragraph</p>
+            <div class="flex-containerfooter" style="flex: 3;">
+                <footer class="footer">
+                    <div class="footer-content">
+                      <div class="footer-left">
+                        <img src="pommy.png" alt="Logo" class="footer-logo">
+                      </div>
+                  
+                      <div class="footer-right">
+                        <p>Batangas City, Batangas 4200</p>
+                        <p>kvdimatatac@up.edu.ph</p>
+                        <a class="footer-link" href="/https://github.com/katedimatatac/">https://github.com/katedimatatac</a>
+            
+                  
+                        <a href="#top" class="footer-link">Back to Top</a>
+                      </div>
+                    </div>
+                  </footer>
             </div>
+
+        
 
         </div>
 </body>
